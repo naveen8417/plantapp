@@ -21,6 +21,9 @@ const imageResults = new mongoose.Schema({
         },
         gbif:{
             id:String
+        },
+        slokas:{
+            slokas:String
         }
 })
 

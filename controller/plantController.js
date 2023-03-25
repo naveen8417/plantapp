@@ -210,6 +210,7 @@ exports.createPost = async (req, res) => {
       obj.score = plant[0].score
       obj.species = plant[0].species
       obj.gbif = plant[0].gbif
+      obj.slokas=plant[0].slokas
 
       //  console.log('this is obj' , obj)
 
@@ -219,7 +220,7 @@ exports.createPost = async (req, res) => {
 
     // console.log('this is posts '  , posts)
 
-    let scientific_name = resp.data.results.splice(0, 3)[0].species.family.scientificName
+    let scientific_name = resp.data.results.splice(0, 3)[0].species.family.scientificName.slokas
     const wikkiLink = `https://en.wikipedia.org/wiki/${scientific_name}`
 
 
