@@ -13,9 +13,9 @@ var rem = 495;
 // https://en.wikipedia.org/wiki/Arecaceae
 //https://api.gbif.org/v1/occurrence/search?scientificName=Euphorbia 
 cloudinary.config({
-  cloud_name: 'dspfsi3mp',
-  api_key: '115465331525527',
-  api_secret: 'LXDvQJygdRMzj6-btmNFl8_dyzqYOH1HgW62BXk8xXBY27e-KSz_04'
+  cloud_name: 'dl9gsmvqc',
+  api_key: '552698194125665',
+  api_secret: 'LOH1HgW62BXk8xXBY27e-KSz_04'
 });
 
 

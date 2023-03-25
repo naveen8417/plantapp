@@ -6,9 +6,9 @@ const { encode, decode } = require('node-base64-image')
 const { promisify } = require('util')
 
 cloudinary.config({
-	cloud_name: 'dspfsi3mp',
-	api_key: '115465331525527',
-	api_secret: 'LXDvQJygdRMzj6-btmNFl8_dyzqYOH1HgW62BXk8xXBY27e-KSz_04'
+	cloud_name: 'dl9gsmvqc',
+	api_key: '552698194125665',
+	api_secret: 'LOH1HgW62BXk8xXBY27e-KSz_04'
 });
 
 
